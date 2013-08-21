@@ -95,6 +95,8 @@ width:50%;
 
 
 .thumb{
+width:80px;
+height:80px;
 border-radius:2px;
 border-color:#CCC;
 border-width:1px;
