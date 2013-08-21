@@ -1,0 +1,116 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+
+
+body{
+margin:0px;
+background-color:rgba(232,232,232,1.0);
+}
+
+#addToHome{
+position:fixed; 
+bottom:-100px; 
+height:70px; 
+line-height:70px;
+text-align:center;
+font-family:Arial;
+color:#FFF;
+text-shadow:0px 3px 0px #333;
+font-weight:bold;
+font-size:20px;
+width:100%; 
+background-color:#6A6A6A; 
+z-index:2;
+border-top:1px solid #A7A6A6;
+cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+
+        font-family: digiClock;
+        font-style: normal;
+        src: url(../font/DS-DIGI.TTF) format('truetype');
+}
+
+
+#clock{
+font-family:digiClock;
+font-size:60px;
+font-weight:bold;
+text-shadow:7px 5px 5px #BCBCBC;
+}
+
+#time{
+text-align:right;
+width:100%;
+}
+
+#seconds{
+float:right;
+display:inline;
+text-align:left;
+font-size:30px;
+margin-top:28px;
+width:50%;
+}
+
+
+.thumb{
+border-radius:2px;
+border-color:#CCC;
+border-width:1px;
+border-style:solid;
+background-color:#7a7a7a;
+background-position:center top;
+background-size: auto 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
