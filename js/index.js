@@ -7,7 +7,7 @@ function loadRepos() {
         var i, repo;
         $.each(data.moduleArr, function (i, story) {
             $("#allRepos").append("<li><div style = 'white-space:normal;'><a' href='https://github.com/" + story.headline + "/" + story.headline + "'></div>"
-            + "<img src = '" + story.thumb + "' class = 'thumb'></img>"
+            + "<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 		    + "<h4>" + story.headline + "</h4>"
             + "<p>" + story.headline + "</p></a></li>");
         });
