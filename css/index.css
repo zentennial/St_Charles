@@ -31,7 +31,11 @@ background-color:rgba(232,232,232,1.0);
 }
 
 
-
+.listHeadline{
+	margin-left:10px;
+	font-size:12px;
+	line-height:11px;
+}
 
 
 

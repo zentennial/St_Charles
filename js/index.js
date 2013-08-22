@@ -8,7 +8,7 @@ function loadRepos() {
         $.each(data.moduleArr, function (i, story) {
             $("#allRepos").append("<li style = 'min-height:80px;'><a' href='https://github.com/'>"
             + "<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
-		    + "<div>" + story.headline + "</div>"
+		    + "<div class = 'listHeadline'>" + story.headline + "</div>"
             + "<p>" + story.headline + "</p></a></li>");
         });
         $('#allRepos').listview('refresh');
