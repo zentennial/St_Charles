@@ -32,10 +32,7 @@ background-color:rgba(232,232,232,1.0);
 
 
 .listHeadline{
-	float:right;
-	display:inline;
 	
-	padding:10px 0px 10px 10px;
 	font-size:14px;
 	line-height:13px;
 }
@@ -73,10 +70,11 @@ width:50%;
 
 
 .thumb{
-	position:relative;
-	
+	float:left;
+	display:inline;
 width:80px;
 height:80px;
+margin-right:10px;
 border-radius:2px;
 border-color:#CCC;
 border-width:1px;
