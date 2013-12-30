@@ -21,6 +21,13 @@ function loadRepos() {
 
 
 
+
+$(document).delegate('#reposArticle', 'pageshow', function () {
+  alert("page show");
+});
+
+
+
 function loadArticle(){
 	
 	setTimeout(function(){
