@@ -51,7 +51,6 @@ background-color:rgba(232,232,232,1.0);
 
 
 @font-face {
-
         font-family: digiClock;
         font-style: normal;
         src: url(../font/DS-DIGI.TTF) format('truetype');
@@ -99,7 +98,7 @@ background-size: auto 80px;
 
 .ui-page .ui-content .ui-listview .ui-li-desc {
     white-space : normal !important;
-}?
+}
 
 
 
