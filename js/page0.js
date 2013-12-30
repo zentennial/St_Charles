@@ -1,6 +1,6 @@
 $('#reposArticle').bind('pageinit', function(event) {
-	alert("testing");
 	
+	loadRepos0();
 	
 });
 
@@ -17,8 +17,7 @@ function loadRepos0(){
                +"<div class = 'listSummary'>" + story.summary + "</div></div></li>");
 		  }
         });
-        $('#allRepos').listview('refresh');
+        $('#storyRepos').listview('refresh');
     }); 
 }
 
-alert("just alert");
