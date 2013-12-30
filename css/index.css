@@ -32,20 +32,21 @@ background-color:rgba(232,232,232,1.0);
 
 
 .listHeadline{
-	float:right;
 	clear:both;
+	float:right;
+	
 	font-size:14px;
 	line-height:13px;
 }
 
 
 .listSummary{
-	float:right;
 	clear:both;
+	float:right;
+	
 	font-size:10px;
 	line-height:13px;
 	font-weight:100;
-	
 }
 
 
@@ -80,6 +81,7 @@ width:50%;
 
 
 .thumb{
+clear:both;
 float:left;
 display:inline;
 width:80px;
