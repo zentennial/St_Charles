@@ -8,7 +8,7 @@ function loadRepos() {
         $.each(data.moduleArr, function (i, story) {
 										 
 		  if(story.headline){						 
-               $("#allRepos").append("<li style = 'min-height:80px;'><a href='page.html' data-transition='slide'>"
+               $("#allRepos").append("<li style = 'min-height:80px;'><a href='page.html?text="+ story.story +"' data-transition='slide'>"
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 			   +"<div id = 'listText'>"
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
