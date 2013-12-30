@@ -7,12 +7,12 @@ function loadRepos() {
         var i, repo;
         $.each(data.moduleArr, function (i, story) {
 										 
-		  if(story.headline){						 
-               $("#allRepos").append("<li style = 'min-height:80px;'><a href='page"+i+".html?text="+ story.story +"' data-transition='slide'>"
+		  if(story.headline && i == 1){						 
+               $("#allRepos").append("<li style = 'min-height:80px;'>"
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 			   +"<div id = 'listText'>"
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
-               +"<div class = 'listSummary'>" + story.summary + "</div></div></a></li>");
+               +"<div class = 'listSummary'>" + story.summary + "</div></div></li>");
 		  }
         });
         $('#allRepos').listview('refresh');
