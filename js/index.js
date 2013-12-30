@@ -12,7 +12,7 @@ function loadRepos() {
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 			   +"<div id = 'listText'>"
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
-               +"<div class = 'listSummary'>" + story.headline + "</div></div></a></li>");
+               +"<div class = 'listSummary'>" + story.summary + "</div></div></a></li>");
 		  }
         });
         $('#allRepos').listview('refresh');
