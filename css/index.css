@@ -16,23 +16,23 @@ width:100%;
 
 
 #listText{
-	width:100%;
-	white-space:normal;	
+width:100%;
+white-space:normal;	
 }
 
 .listHeadline{
-	font-size:14px;
-	line-height:15px;
-	white-space:normal;
-	margin-bottom:10px;
+font-size:14px;
+line-height:15px;
+white-space:normal;
+margin-bottom:10px;
 }
 
 
 .listSummary{
-	font-size:11px;
-	line-height:13px;
-	font-weight:100;
-	white-space:normal;
+font-size:11px;
+line-height:13px;
+font-weight:100;
+white-space:normal;
 }
 
 

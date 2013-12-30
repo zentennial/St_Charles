@@ -8,7 +8,7 @@ function loadRepos() {
         $.each(data.moduleArr, function (i, story) {
 										 
 		  if(story.headline){						 
-               $("#allRepos").append("<li style = 'min-height:80px;'><a href='https://github.com/'>"
+               $("#allRepos").append("<li style = 'min-height:80px;'><a href='page.html'>"
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 			   +"<div id = 'listText'>"
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
@@ -18,3 +18,4 @@ function loadRepos() {
         $('#allRepos').listview('refresh');
     }); 
 }
+
