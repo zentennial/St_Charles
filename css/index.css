@@ -16,7 +16,7 @@ width:100%;
 
 
 #listText{
-	float:right;
+	
 	width:75%;
 	margin-right:-10%;
 	white-space : normal;
@@ -28,6 +28,7 @@ width:100%;
 	line-height:15px;
 	width:100%;
 	white-space : normal;
+	margin-bottom:10px;
 }
 
 
