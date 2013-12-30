@@ -38,6 +38,10 @@ background-color:rgba(232,232,232,1.0);
 }
 
 
+.listSummary{
+	font-size:10px;
+	line-height:13px;
+}
 
 @font-face {
 

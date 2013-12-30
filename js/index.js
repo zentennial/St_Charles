@@ -11,7 +11,7 @@ function loadRepos() {
                $("#allRepos").append("<li style = 'min-height:80px;'><a href='https://github.com/'>"
                + "<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 		       + "<div class = 'listHeadline'>" + story.headline + "</div>"
-                + "<div>" + story.headline + "</div></a></li>");
+                + "<div class = 'listSummary'>" + story.headline + "</div></a></li>");
 		  }
         });
         $('#allRepos').listview('refresh');
