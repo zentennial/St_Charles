@@ -27,5 +27,22 @@
         
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        
+        <script>
+		
+		
+		var storyText = getURLParameter("text");
+		
+		alert(storyText);
+		
+	function getURLParameter(text) {
+    return decodeURI(
+        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+    );
+}
+		
+		
+		</script>
+        
     </body>
 </html>
