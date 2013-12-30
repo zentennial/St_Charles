@@ -8,7 +8,7 @@ function loadRepos() {
         $.each(data.moduleArr, function (i, story) {
 										 
 		  if(story.headline){						 
-               $("#allRepos").append("<li style = 'min-height:80px;'><a href='page"+i+".html?text="+ story.story +"' data-transition='slide' onclick='loadArticle();'>"
+               $("#allRepos").append("<li style = 'min-height:80px;'><a href='page"+i+".html?text="+ story.story +"' data-transition='slide'>"
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 			   +"<div id = 'listText'>"
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
@@ -23,15 +23,9 @@ function loadRepos() {
 
 
 $(document).delegate('#reposArticle', 'pageshow', function () {
-  alert("page show");
-});
-
-
-
-function loadArticle(){
-	
-	setTimeout(function(){
-	  $.ajax("http://jhmc-r7zk.accessdomain.com/lindsay/stcharles_build.json").done(function(data) {
+ 
+ 
+   $.ajax("http://jhmc-r7zk.accessdomain.com/lindsay/stcharles_build.json").done(function(data) {
         var i, repo;
         $.each(data.moduleArr, function (i, story) {
 										 
@@ -45,6 +39,9 @@ function loadArticle(){
         });
         $('#storyRepos').listview('refresh');
     }); 
-	
-	},1);
-}
+ 
+ 
+});
+
+
+
