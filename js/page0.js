@@ -1,6 +1,7 @@
 $('#reposArticle').bind('pageinit', function(event) {
-	loadRepos0();
 	alert("testing");
+	loadRepos0();
+	
 });
 
 function loadRepos0(){
