@@ -17,20 +17,22 @@ width:100%;
 
 #listText{
 	float:right;
-	width:65%;
+	width:75%;
+	margin-right:-10%;
 	white-space : normal;
+	
 }
 
 .listHeadline{
 	font-size:14px;
-	line-height:13px;
+	line-height:15px;
 	width:100%;
 	white-space : normal;
 }
 
 
 .listSummary{
-	font-size:10px;
+	font-size:11px;
 	line-height:13px;
 	font-weight:100;
 	width:100%;
