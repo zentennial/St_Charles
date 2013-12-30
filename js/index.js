@@ -21,6 +21,6 @@ function loadRepos() {
 
 
 
-$('#reposArticle').bind('pageinit', function(event) {
+$('#reposArticle').ready(function() {
 	alert("page loaded");
 });
