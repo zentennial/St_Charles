@@ -23,6 +23,7 @@ function loadRepos() {
 
 function loadArticle(){
 	
+	setTimeout(function(){
 	  $.ajax("http://jhmc-r7zk.accessdomain.com/lindsay/stcharles_build.json").done(function(data) {
         var i, repo;
         $.each(data.moduleArr, function (i, story) {
@@ -37,4 +38,6 @@ function loadArticle(){
         });
         $('#storyRepos').listview('refresh');
     }); 
+	
+	},1000);
 }
