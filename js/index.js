@@ -39,5 +39,5 @@ function loadArticle(){
         $('#storyRepos').listview('refresh');
     }); 
 	
-	},1000);
+	},500);
 }
