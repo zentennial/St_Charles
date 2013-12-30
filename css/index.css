@@ -32,7 +32,7 @@ background-color:rgba(232,232,232,1.0);
 
 
 .listHeadline{
-	
+	position:relative;
 	font-size:14px;
 	line-height:13px;
 }
