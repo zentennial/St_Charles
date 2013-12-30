@@ -17,14 +17,14 @@ width:100%;
 
 #listText{
 	float:right;
-	width:100px;
+	width:50%;
 	white-space : normal;
 }
 
 .listHeadline{
 	font-size:14px;
 	line-height:13px;
-	width:100px;
+	width:100%;
 	white-space : normal;
 }
 
@@ -33,7 +33,7 @@ width:100%;
 	font-size:10px;
 	line-height:13px;
 	font-weight:100;
-	width:100px;
+	width:100%;
 	white-space : normal;
 }
 
