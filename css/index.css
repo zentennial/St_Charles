@@ -17,8 +17,7 @@ width:100%;
 
 #listText{
 	width:100%;
-	white-space:normal;
-	
+	white-space:normal;	
 }
 
 .listHeadline{
@@ -34,6 +33,7 @@ width:100%;
 	line-height:13px;
 	font-weight:100;
 	white-space:normal;
+	width:90%;
 
 }
 
