@@ -16,6 +16,7 @@ width:100%;
 
 
 #listText{
+	float:right;
 	width:50%;
 }
 
@@ -33,7 +34,7 @@ width:100%;
 
 
 .thumb{
-
+float:left;
 display:inline;
 width:80px;
 height:80px;
@@ -48,9 +49,7 @@ background-size: auto 80px;
 }
 
 
-.ui-page .ui-content .ui-listview .ui-li-desc {
-    white-space : normal !important;
-}
+
 
 
 
