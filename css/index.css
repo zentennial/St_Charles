@@ -34,7 +34,7 @@ background-color:rgba(232,232,232,1.0);
 .listHeadline{
 	clear:both;
 	float:right;
-	
+	width:50%;
 	font-size:14px;
 	line-height:13px;
 }
@@ -43,39 +43,10 @@ background-color:rgba(232,232,232,1.0);
 .listSummary{
 	clear:both;
 	float:right;
-	
+	width:50%;
 	font-size:10px;
 	line-height:13px;
 	font-weight:100;
-}
-
-
-@font-face {
-        font-family: digiClock;
-        font-style: normal;
-        src: url(../font/DS-DIGI.TTF) format('truetype');
-}
-
-
-#clock{
-font-family:digiClock;
-font-size:60px;
-font-weight:bold;
-text-shadow:7px 5px 5px #BCBCBC;
-}
-
-#time{
-text-align:right;
-width:100%;
-}
-
-#seconds{
-float:right;
-display:inline;
-text-align:left;
-font-size:30px;
-margin-top:28px;
-width:50%;
 }
 
 
