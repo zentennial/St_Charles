@@ -22,23 +22,3 @@ function loadRepos() {
 
 
 
-$('#reposArticle').bind('pageinit', function(event) {
-	loadRepos0();
-});
-
-function loadRepos0(){
-    $.ajax("http://jhmc-r7zk.accessdomain.com/lindsay/stcharles_build.json").done(function(data) {
-        var j, repo;
-        $.each(data.moduleArr, function (j, story) {
-										 
-		  if(j){						 
-               $("#storyRepos").append("<li style = 'min-height:80px;'>"
-               +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
-			   +"<div id = 'listText'>"
-		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
-               +"<div class = 'listSummary'>" + story.summary + "</div></div></li>");
-		  }
-        });
-        $('#storyRepos').listview('refresh');
-    }); 
-}
