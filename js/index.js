@@ -34,7 +34,7 @@ $(document).delegate('#reposArticle', 'pagebeforeshow', function () {
 										 
 		  if(i == itemNum){						 
                $("#storyRepos").append("<li style = 'min-height:80px;'><a href='page"+i+".html?text="+ story.story +"' data-transition='slide' onclick='loadArticle();'>"
-               +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
+               +"<img src = '"+story.thumb+"' class = 'storyImg'></img>"
 			   +"<div id = 'listText'>"
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
                +"<div class = 'listSummary'>" + story.summary + "</div></div></a></li>");
