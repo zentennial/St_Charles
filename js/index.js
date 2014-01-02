@@ -10,7 +10,12 @@ function loadRepos() {
         var i, repo;
         $.each(data.moduleArr, function (i, story) {
 										 
-		  if(story.headline){						 
+		  if(story.headline){	
+		  
+		  var summary = story.summary;
+          summary = summary.replace("<p>","");
+		  summary = summary.replace("</p>","");
+		       					 
                $("#allRepos").append("<li style = 'min-height:80px;'><a href='page0.html' data-transition='slide' onclick = 'changeItemNum("+i+");'>"
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 			   +"<div id = 'listText'>"
