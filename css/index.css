@@ -64,17 +64,18 @@ height:auto;
 
 
 .storyHeadline{
-font-size:18px;
-line-height:20px;
+font-size:20px;
+line-height:21px;
+font-weight:bold;
 white-space:normal;
 margin-bottom:10px;
 }
 
 
 .storyText{
-font-size:12px;
+font-size:14px;
 line-height:13px;
-font-weight:200;
+font-weight:300;
 white-space:normal;
 }
 
