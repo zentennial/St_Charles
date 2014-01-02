@@ -39,7 +39,7 @@ $(document).delegate('#reposArticle', 'pagebeforeshow', function () {
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
                +"<div class = 'listSummary'>" + story.summary + "</div></div></a></li>");
 			   
-			   $(h1).text(story.headline);
+			   $("#storyPageHeader").text(story.headline);
 			   
 		  }
         });
