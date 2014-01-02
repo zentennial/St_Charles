@@ -2,13 +2,16 @@ $('#reposHome').bind('pageinit', function(event) {
 	loadRepos();
 });
 
+
+var itemNum = 0;
+
 function loadRepos() {
     $.ajax("http://jhmc-r7zk.accessdomain.com/lindsay/stcharles_build.json").done(function(data) {
         var i, repo;
         $.each(data.moduleArr, function (i, story) {
 										 
 		  if(story.headline){						 
-               $("#allRepos").append("<li style = 'min-height:80px;'><a href='page0.html?text="+ story.story +"' data-transition='slide'>"
+               $("#allRepos").append("<li style = 'min-height:80px;'><a href='page0.html' data-transition='slide' onclick = 'changeItemNum("+i+");'>"
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 			   +"<div id = 'listText'>"
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
@@ -42,6 +45,16 @@ $(document).delegate('#reposArticle', 'pagebeforeshow', function () {
  
  
 });
+
+
+
+
+function changeItemNum(k){
+	
+	itemNum = k;
+	alert(itemNum);
+	
+}
 
 
 
