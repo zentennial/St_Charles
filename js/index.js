@@ -34,9 +34,9 @@ $(document).delegate('#reposArticle', 'pagebeforeshow', function () {
 										 
 		  if(i == itemNum){						 
                $("#storyRepos").append("<img src = '"+story.thumb+"' class = 'storyImg'></img>"
-			   +"<div id = 'listText'>"
-		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
-               +"<div class = 'listSummary'>" + story.summary + "</div></div>");
+	
+		       +"<div class = 'storyHeadline'>" + story.headline + "</div>"
+               +"<div class = 'storyText'>" + story.story + "</div>");
 			   
 			   $("#storyPageHeader").text(story.headline);
 			   

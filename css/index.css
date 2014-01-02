@@ -63,6 +63,22 @@ height:auto;
 
 
 
+.storyHeadline{
+font-size:18px;
+line-height:20px;
+white-space:normal;
+margin-bottom:10px;
+}
+
+
+.storyText{
+font-size:12px;
+line-height:13px;
+font-weight:200;
+white-space:normal;
+}
+
+
 
 
 
