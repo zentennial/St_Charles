@@ -18,9 +18,9 @@ function loadRepos() {
 		       					 
                $("#allRepos").append("<li style = 'min-height:80px;'><a href='page0.html' data-transition='slide' onclick = 'changeItemNum("+i+");'>"
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
-			   +"<div id = 'listText'>"
+			 
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
-               +"<div class = 'listSummary'>" + story.summary + "</div></div></a></li>");
+               +"<div class = 'listSummary'>" + story.summary + "</div></a></li>");
 		  }
         });
         $('#allRepos').listview('refresh');
