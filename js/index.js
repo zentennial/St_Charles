@@ -29,7 +29,7 @@ $(document).delegate('#reposArticle', 'pagebeforeshow', function () {
         var i, repo;
         $.each(data.moduleArr, function (i, story) {
 										 
-		  if(story.headline){						 
+		  if(i == 0){						 
                $("#storyRepos").append("<li style = 'min-height:80px;'><a href='page"+i+".html?text="+ story.story +"' data-transition='slide' onclick='loadArticle();'>"
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
 			   +"<div id = 'listText'>"
