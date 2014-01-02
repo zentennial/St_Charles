@@ -27,7 +27,6 @@ font-size:12px;
 line-height:13px;
 white-space:normal;
 font-weight:100;
-
 }
 
 .thumb{
@@ -36,6 +35,8 @@ display:inline;
 width:80px;
 height:80px;
 margin-right:10px;
+margin-left:-15px;
+margin-top:-15px;
 border-radius:2px;
 border-color:#CCC;
 border-width:1px;

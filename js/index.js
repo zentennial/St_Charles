@@ -57,10 +57,7 @@ $(document).delegate('#reposArticle', 'pagebeforeshow', function () {
 
 
 function changeItemNum(k){
-	
-	itemNum = k;
-	
-	
+	itemNum = k;	
 }
 
 
