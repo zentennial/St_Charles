@@ -38,6 +38,9 @@ $(document).delegate('#reposArticle', 'pagebeforeshow', function () {
 			   +"<div id = 'listText'>"
 		       +"<div class = 'listHeadline'>" + story.headline + "</div>"
                +"<div class = 'listSummary'>" + story.summary + "</div></div></a></li>");
+			   
+			   $(h1).text(story.headline);
+			   
 		  }
         });
         $('#storyRepos').listview('refresh');
