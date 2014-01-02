@@ -15,6 +15,7 @@ function loadRepos() {
 		  var summary = story.summary;
           summary = summary.replace("<p>","");
 		  summary = summary.replace("</p>","");
+		  summary = summary.replace("<p class=MsoNormal>", "");
 		       					 
                $("#allRepos").append("<li style = 'min-height:80px;'><a href='page0.html' data-transition='slide' onclick = 'changeItemNum("+i+");'>"
                +"<div style = 'background-image:url(" + story.thumb + ");' class = 'thumb'></div>"
