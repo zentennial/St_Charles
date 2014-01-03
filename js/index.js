@@ -30,8 +30,8 @@ function loadRepos() {
 
 
 
-$(document).delegate('#reposArticle', 'pagebeforeshow', function () {
- 
+$(document).delegate('#reposArticle', 'pagebeforeshow', function(){
+
  
    $.ajax("http://jhmc-r7zk.accessdomain.com/lindsay/stcharles_build.json").done(function(data) {
         var i, repo;
